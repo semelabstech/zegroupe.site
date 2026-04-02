@@ -1,0 +1,356 @@
+{
+  "meta": {
+    "title": "ZEG | Zaytunat Essaadaoui Group",
+    "description": "LE MARKETING SANS STRATÉGIE N'EST QUE DU BRUIT. Architecture de Marque • Stratégie • Technologie."
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "programmes": "Programmes",
+    "diagnostic": "Diagnostic",
+    "contact": "Contact",
+    "auditFlash": "Audit Flash",
+    "requestAudit": "Demander mon Audit",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "langSwitcher": { "fr": "FR", "en": "EN", "ar": "AR" },
+  "footer": {
+    "tagline": "Le marketing sans stratégie n'est que du bruit.",
+    "service1": "Architecture de Marque",
+    "service2": "Stratégie Business",
+    "service3": "Technologie & Digitalisation",
+    "explore": "Explorer",
+    "office": "Bureau",
+    "location": "Localisation",
+    "locationValue": "Meknès, Maroc",
+    "phone": "Téléphone",
+    "email": "Email",
+    "copyright": "ZAYTUNAT ESSAADAOUI GROUP.",
+    "mentions": "Mentions Légales",
+    "privacy": "Confidentialité",
+    "cgp": "CGP"
+  },
+  "whatsapp": {
+    "label": "Contactez-nous",
+    "message": "Bonjour ZEG ! Je souhaite avoir plus d'informations."
+  },
+  "home": {
+    "hero": {
+      "subtitle": "Architecture de Marque • Stratégie • Technologie",
+      "tagline": "Le marketing sans stratégie n'est que du bruit. Nous construisons des marques qui s'imposent.",
+      "ctaPrimary": "Audit Flash Gratuit",
+      "ctaSecondary": "Nos Programmes",
+      "statsClients": "50+",
+      "statsClientsLabel": "Clients",
+      "statsCustom": "100%",
+      "statsCustomLabel": "Sur Mesure",
+      "statsLocation": "Meknès",
+      "statsLocationLabel": "Maroc",
+      "directorName": "Hamza Essaadaoui",
+      "directorTitle": "Directeur Général"
+    },
+    "vision": {
+      "label": "Le Cabinet",
+      "title": "Notre Vision.",
+      "titleAccent": "Votre Succès.",
+      "p1": "Zaytunat Essaadaoui Group (ZEG) accompagne les entreprises, coopératives et PME dans la structuration de leur image de marque, la valorisation de leurs produits et la transformation digitale de leurs activités.",
+      "p2": "Notre mission est d'aider les organisations à renforcer leur crédibilité, améliorer leur visibilité et soutenir une croissance durable sur leurs marchés.",
+      "cta": "Découvrir notre histoire"
+    },
+    "pillars": {
+      "label": "Méthodologie",
+      "title": "Nos 3 Piliers",
+      "items": [
+        { "num": "01", "title": "Architecture de marque", "desc": "Construire une identité forte, cohérente et crédible." },
+        { "num": "02", "title": "Stratégie marketing", "desc": "Positionner l'entreprise sur son marché et développer sa valeur." },
+        { "num": "03", "title": "Technologie", "desc": "Moderniser les outils et digitaliser les opérations pour améliorer la performance." }
+      ]
+    },
+    "programmesSection": {
+      "label": "Notre Expertise",
+      "title": "Programmes",
+      "titleAccent": "d'Accompagnement",
+      "cta": "Détails complets",
+      "programmeLabel": "Programme",
+      "realisation": "Réalisation",
+      "maintenance": "Maintenance & Suivi",
+      "included": "Inclus dans ce programme",
+      "requestPack": "Demander ce pack"
+    },
+    "positioning": {
+      "label": "Le Positionnement",
+      "intro": "Une approche à 3 niveaux pour garantir un impact maximal à chaque étape de votre croissance.",
+      "items": [
+        { "step": "01", "title": "Construire la marque", "desc": "Identité, image et crédibilité." },
+        { "step": "02", "title": "Valoriser les produits et services", "desc": "Branding, packaging et communication." },
+        { "step": "03", "title": "Développer l'entreprise", "desc": "Présence digitale et systèmes technologiques." }
+      ]
+    },
+    "cta": {
+      "title": "Prêt à dominer",
+      "titleAccent": "votre marché ?",
+      "desc": "Ne laissez plus votre image au hasard. Contactez l'équipe ZEG pour façonner la stratégie qui vous démarquera.",
+      "button": "Entamer la discussion"
+    }
+  },
+  "packs": [
+    {
+      "title": "Identité Essentielle",
+      "shortDesc": "Permettre aux entreprises en phase de lancement de disposer d'une identité professionnelle et cohérente.",
+      "deadline": "7 à 10 jours ouvrables",
+      "maintenance": "Actualisation de la couverture des pages sociales (1x/2 mois pdt 12 mois)",
+      "features": [
+        "Conception d'un logo stratégique professionnel",
+        "Élaboration d'une identité visuelle complète (charte graphique)",
+        "Création d'une carte de visite professionnelle",
+        "Configuration des pages Facebook et Instagram professionnelles"
+      ]
+    },
+    {
+      "title": "Excellence Agricole & Industrielle",
+      "shortDesc": "Renforcer la valeur perçue et la compétitivité commerciale des produits.",
+      "deadline": "15 à 20 jours ouvrables",
+      "maintenance": "Mise à jour des informations produits ou du catalogue (Optionnelle)",
+      "features": [
+        "Optimisation ou évolution du logo existant",
+        "Conception du design de packaging produit",
+        "Shooting photographique professionnel (10 photos produits)",
+        "Création d'un catalogue commercial PDF"
+      ]
+    },
+    {
+      "title": "Présence Digitale Stratégique",
+      "shortDesc": "Développer une présence digitale visible pour améliorer la notoriété et attirer des clients.",
+      "deadline": "3 à 4 semaines",
+      "maintenance": "Hébergement, NDD, Sauvegardes & Support technique",
+      "features": [
+        "Création d'une Landing Page professionnelle",
+        "Configuration et optimisation de Google Business Profile",
+        "Production de 2 vidéos promotionnelles (Reels)",
+        "Élaboration d'un plan de contenu digital"
+      ]
+    },
+    {
+      "title": "Solutions de Digitalisation",
+      "shortDesc": "Modernisation et automatisation des processus internes pour l'amélioration de la performance.",
+      "deadline": "4 à 8 semaines selon la complexité",
+      "maintenance": "Support à distance, Corrections, Mises à jour, Formation",
+      "features": [
+        "Site e-commerce professionnel",
+        "Système CRM / ERP simplifié",
+        "Application mobile métier",
+        "Formation annuelle des nouveaux utilisateurs"
+      ]
+    },
+    {
+      "title": "Conseil Stratégique ZEG",
+      "shortDesc": "Accompagner les dirigeants dans la définition de leur stratégie de développement.",
+      "deadline": "Session 2-3h / Rapport sous 3-5 jours",
+      "maintenance": "Diagnostic et plan d'action",
+      "features": [
+        "Diagnostic global de l'activité",
+        "Analyse marketing et digitale",
+        "Recommandations stratégiques personnalisées",
+        "Élaboration d'un plan d'action opérationnel"
+      ]
+    }
+  ],
+  "about": {
+    "hero": {
+      "label": "Le Cabinet ZEG",
+      "title": "Forger des",
+      "titleAccent": "Identités Intemporelles.",
+      "p1": "Zaytunat Essaadaoui Group (ZEG) accompagne les entreprises, coopératives et PME dans la structuration de leur image de marque, la valorisation de leurs produits et la transformation digitale de leurs activités.",
+      "p2": "Notre mission est d'aider les organisations à renforcer leur crédibilité, améliorer leur visibilité et soutenir une croissance durable sur leurs marchés.",
+      "p3": "L'approche de ZEG repose sur trois piliers stratégiques : l'architecture de marque, la stratégie marketing et la technologie.",
+      "p4": "Grâce à cette approche intégrée, nous accompagnons les organisations dans la construction d'une marque solide et la maximisation de leur présence internationale."
+    },
+    "image": {
+      "label": "L'Excellence Architecturelle",
+      "quote": "Nous croyons fermement que dans un monde saturé d'informations, le marketing sans stratégie n'est que du bruit.",
+      "quoteBody": "C'est pourquoi notre approche transcende la simple création visuelle pour s'ancrer dans une vision business concrète et mesurable. Que vous soyez dans l'agriculture, l'industrie ou les services de haut niveau, notre mission est de révéler votre potentiel, d'optimiser vos processus et de forger pour vous une identité qui s'impose naturellement comme la référence sur votre marché.",
+      "cta": "Découvrir nos Packs"
+    },
+    "director": {
+      "label": "Direction Générale",
+      "name": "Hamza Essaadaoui",
+      "title": "Directeur Général & Consultant Senior",
+      "cta": "Prendre rendez-vous"
+    }
+  },
+  "programmesPage": {
+    "hero": {
+      "label": "Notre Expertise",
+      "title": "Programmes",
+      "titleAccent": "Sur-mesure.",
+      "desc": "Des architectures complètes pour structurer votre croissance et dominer votre marché, de l'identité fondamentale à la digitalisation totale."
+    },
+    "programmeLabel": "Programme",
+    "realisation": "Réalisation",
+    "maintenance": "Maintenance & Suivi",
+    "included": "Inclus dans ce programme",
+    "requestPack": "Demander ce pack",
+    "footer": {
+      "title": "Hésitation Stratégique ?",
+      "desc": "Réalisez notre Diagnostic Flash pour identifier avec une précision absolue vos priorités actuelles. Un rapport sur-mesure vous sera délivré.",
+      "cta": "Lancer l'Audit Flash"
+    }
+  },
+  "diagnostic": {
+    "label": "Évaluation Complète",
+    "title": "Diagnostic",
+    "titleAccent": "Stratégique Flash",
+    "desc": "Une analyse objective des actifs immatériels et technologiques de votre entreprise. Identifiez précisemment ce qui freine votre croissance et découvrez les leviers pour dominer votre marché.",
+    "reportTitle": "Ce que contient le rapport",
+    "reportItems": [
+      { "num": "01", "title": "Identité visuelle (Le Signal)", "desc": "Analyse objective des actifs immatériels et de leur perception sur le marché." },
+      { "num": "02", "title": "Présence digitale & Systèmes (L'Autorité)", "desc": "Audit de vos outils numériques (site web, stratégie de conversion, gestion)." },
+      { "num": "03", "title": "Packaging & Supports", "desc": "Évaluation de l'impact de vos supports sur la rotation des stocks et la justification de vos prix." },
+      { "num": "04", "title": "Recommandations ZEG", "desc": "Plan d'action personnalisé (Identité, Digitalisation, Maintenance) pour dominer le marché." }
+    ],
+    "quote": "Le produit est le corps, la marque est la voix. Actuellement, votre voix ne porte pas assez loin pour atteindre vos ambitions sur le marché. Le marketing sans stratégie n'est que du bruit. Construisons votre propre architecture.",
+    "formTitle": "Demander votre Diagnostic",
+    "formDesc": "Remplissez vos informations pour initier l'évaluation stratégique.",
+    "fieldName": "Nom complet",
+    "fieldCompany": "Entreprise / Coopérative",
+    "fieldEmail": "Adresse E-mail Professionnelle",
+    "fieldPhone": "Numéro de Téléphone",
+    "fieldNeeds": "Vos défis actuels (Bref)",
+    "fieldNeedsPlaceholder": "Nous avons des difficultés à...",
+    "submitButton": "Valider la demande",
+    "submitting": "Envoi en cours...",
+    "successTitle": "Demande envoyée",
+    "successDesc": "Votre demande de diagnostic a été transmise. Notre équipe vous recontactera dans les plus brefs délais.",
+    "successNew": "Nouvelle demande",
+    "errorMsg": "Une erreur est survenue. Veuillez réessayer ou nous contacter par WhatsApp."
+  },
+  "contact": {
+    "label": "Nouveau Client",
+    "title": "Construisons",
+    "titleAccent": "votre empire.",
+    "desc": "Chaque grand projet commence par une conversation stratégique. Remplissez ce formulaire et notre équipe de direction vous recontactera sous 24h ouvrées.",
+    "locationLabel": "Localisation",
+    "locationValue": "Meknès, Maroc",
+    "phoneLabel": "Téléphone (WhatsApp)",
+    "emailLabel": "E-mail Professionnel",
+    "directorName": "Hamza Essaadaoui",
+    "directorTitle": "Directeur Général",
+    "fieldFirstname": "Prénom",
+    "fieldLastname": "Nom",
+    "fieldCompany": "Nom de l'entreprise",
+    "fieldEmail": "Adresse E-mail",
+    "fieldPhone": "Numéro de Téléphone",
+    "fieldMessage": "Objet de votre demande",
+    "fieldMessagePlaceholder": "Parlez-nous de votre projet ou du programme qui vous intéresse...",
+    "submitButton": "Envoyer le message",
+    "submitting": "Envoi en cours...",
+    "successTitle": "Message envoyé",
+    "successDesc": "Merci pour votre confiance. Notre équipe vous recontactera sous 24h ouvrées.",
+    "successNew": "Envoyer un autre message",
+    "errorMsg": "Une erreur est survenue. Veuillez réessayer ou nous contacter par WhatsApp."
+  },
+  "legal": {
+    "label": "Informations Légales",
+    "title": "Mentions",
+    "titleAccent": "Légales.",
+    "desc": "Conformément aux dispositions légales en vigueur, les informations relatives à l'éditeur et à l'hébergeur du présent site sont détaillées ci-dessous.",
+    "sections": [
+      {
+        "num": "01", "title": "Éditeur du Site",
+        "content": "Le présent site est édité par :",
+        "items": [
+          "Raison sociale : Zaytunat Essaadaoui Group (ZEG)",
+          "Forme juridique : [Statut juridique]",
+          "Directeur Général : Hamza Essaadaoui",
+          "Siège social : Meknès – Maroc",
+          "ICE : [En cours d'attribution]"
+        ]
+      },
+      { "num": "02", "title": "Directeur de la Publication", "content": "Monsieur Hamza Essaadaoui, en qualité de Directeur Général de ZEG.", "items": [] },
+      {
+        "num": "03", "title": "Hébergement",
+        "content": "Le site est hébergé par :",
+        "items": ["Vercel Inc.", "440 N Barranca Ave #4133, Covina, CA 91723, USA"]
+      },
+      { "num": "04", "title": "Propriété Intellectuelle", "content": "L'ensemble de ce site relève de la législation marocaine et internationale sur le droit d'auteur et la propriété intellectuelle. Tous les droits de reproduction sont réservés, y compris pour les documents téléchargeables et les représentations iconographiques et photographiques. La reproduction de tout ou partie de ce site sur un support électronique quel qu'il soit est formellement interdite sauf autorisation expresse du Directeur de la publication.", "items": [] },
+      {
+        "num": "05", "title": "Contact",
+        "content": "Pour toute question ou demande d'information concernant le site, vous pouvez nous contacter :",
+        "items": ["Par email : contact.ste.zeg@gmail.com", "Par téléphone : +212 631-17-67-56"]
+      }
+    ]
+  },
+  "privacy": {
+    "label": "Protection des Données",
+    "title": "Politique de",
+    "titleAccent": "Confidentialité.",
+    "desc": "Le ZAYTUNAT ESSAADAOUI GROUP (ZEG) accorde une importance primordiale à la protection de vos données personnelles. Cette politique décrit la manière dont nous collectons, utilisons et protégeons vos informations.",
+    "sections": [
+      {
+        "num": "01", "title": "Collecte des Données Personnelles",
+        "content": "Nous sommes susceptibles de collecter et traiter les données suivantes lors de votre navigation ou de vos demandes :",
+        "items": [
+          "Nom, prénom, et fonction au sein de votre entreprise",
+          "Coordonnées (adresse email professionnelle, numéro de téléphone, WhatsApp)",
+          "Informations relatives à votre entreprise et votre secteur d'activité",
+          "Données de navigation (cookies, adresse IP)"
+        ]
+      },
+      {
+        "num": "02", "title": "Utilisation des Données",
+        "content": "Les informations que nous recueillons sont utilisées dans les buts suivants :",
+        "items": [
+          "Traitement de vos demandes de devis et réalisation de l'Audit Flash",
+          "Communication concernant nos programmes d'accompagnement",
+          "Amélioration continue de notre site web et de l'expérience utilisateur",
+          "Respect de nos obligations légales et réglementaires"
+        ]
+      },
+      { "num": "03", "title": "Protection et Sécurité", "content": "ZEG met en œuvre des mesures de sécurité techniques et organisationnelles appropriées pour protéger vos données personnelles contre l'accès non autorisé, la modification, la divulgation ou la destruction. L'accès à vos données est strictement limité aux collaborateurs de ZEG en ayant besoin pour l'exécution de leurs missions.", "items": [] },
+      { "num": "04", "title": "Gestion des Cookies", "content": "Notre site utilise des cookies pour améliorer votre expérience de navigation et analyser le trafic. Vous pouvez configurer votre navigateur pour refuser ces cookies, bien que cela puisse affecter certaines fonctionnalités du site.", "items": [] },
+      {
+        "num": "05", "title": "Vos Droits",
+        "content": "Conformément à la législation en vigueur (notamment la loi n°09-08 relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel au Maroc), vous disposez d'un droit d'accès, de rectification, d'opposition et de suppression de vos données personnelles. Pour exercer ces droits, vous pouvez nous contacter à l'adresse suivante : contact.ste.zeg@gmail.com",
+        "items": []
+      }
+    ]
+  },
+  "cgp": {
+    "label": "Cadre Contractuel",
+    "title": "Conditions Générales",
+    "titleAccent": "de Prestation.",
+    "desc": "Les présentes Conditions Générales de Prestation (CGP) régissent l'ensemble des relations commerciales entre le cabinet de conseil ZAYTUNAT ESSAADAOUI GROUP (ZEG) et ses clients.",
+    "sections": [
+      { "num": "01", "title": "Objet et Champ d'Application", "content": "Les présentes conditions définissent les modalités d'exécution des missions d'accompagnement, d'architecture de marque, de conseil stratégique ou de digitalisation, commandées à ZEG par le client. Toute signature d'un devis emporte l'acceptation expresse et sans réserve des présentes CGP.", "items": [] },
+      {
+        "num": "02", "title": "Conditions de Paiement",
+        "content": "Le règlement des prestations s'effectue systématiquement selon l'échéancier suivant, sauf stipulation contraire expresse stipulée dans le devis ou contrat :",
+        "items": [
+          "Acompte de 50 % : à la signature du devis pour valider le lancement des travaux.",
+          "Solde de 50 % : à la livraison finale de la prestation (avant la remise des fichiers sources ou la mise en ligne définitive des outils)."
+        ],
+        "note": "ZEG se réserve le droit de suspendre toute prestation en cas de non-paiement de l'acompte ou de l'échéance convenue."
+      },
+      {
+        "num": "03", "title": "Politique de Révision",
+        "content": "Dans le cadre de la création d'une identité visuelle, charte graphique ou autre livrable créatif, chaque devis inclut :",
+        "items": [
+          "Une proposition initiale soumise à la validation du client.",
+          "Un nombre défini d'allers-retours de corrections (généralement 2 à 3 révisions majeures selon le pack souscrit).",
+          "Toute demande de révision supplémentaire non incluse dans le devis initial fera l'objet d'une tarification additionnelle."
+        ]
+      },
+      { "num": "04", "title": "Propriété Intellectuelle", "content": "Les créations réalisées par ZEG (logo, charte graphique, site web, stratégie) demeurent l'entière propriété de ZEG jusqu'au règlement intégral des honoraires (acompte + solde). Une fois le paiement intégral effectué, le client devient propriétaire exclusif des droits d'exploitation et des livrables finaux, selon les modalités précisées dans le contrat de cession. ZEG conserve cependant le droit d'utiliser les créations à des fins d'autopromotion (portfolio, cas d'étude).", "items": [] },
+      { "num": "05", "title": "Confidentialité", "content": "ZEG s'engage à traiter avec la plus grande confidentialité toutes les informations communiquées par le client dans le cadre de l'exécution de sa mission, de la phase d'Audit Flash jusqu'à l'achèvement du programme d'accompagnement.", "items": [] },
+      { "num": "06", "title": "Droit Applicable et Juridiction Compétente", "content": "Tout litige relatif à l'interprétation, l'exécution ou la résiliation d'un contrat conclu avec ZEG sera régi par le droit marocain. À défaut d'accord amiable entre les parties, toute contestation sera portée exclusivement devant le Tribunal de Commerce de Meknès.", "items": [] }
+    ]
+  },
+  "notFound": {
+    "label": "Page Introuvable",
+    "title": "Cette page n'existe pas",
+    "titleAccent": "ou a été déplacée.",
+    "desc": "L'adresse que vous avez saisie ne correspond à aucune page de notre site. Revenez à l'accueil pour continuer votre navigation.",
+    "cta": "Retour à l'accueil"
+  }
+}

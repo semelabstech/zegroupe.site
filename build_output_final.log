@@ -1,0 +1,32 @@
+
+> zegroupe.site@0.1.0 build
+> next build
+
+▲ Next.js 16.2.1 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 14.0s
+  Running TypeScript ...
+  Finished TypeScript in 13.9s ...
+  Collecting page data using 3 workers ...
+  Generating static pages using 3 workers (0/11) ...
+  Generating static pages using 3 workers (2/11) 
+  Generating static pages using 3 workers (5/11) 
+  Generating static pages using 3 workers (8/11) 
+✓ Generating static pages using 3 workers (11/11) in 2.3s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /a-propos
+├ ○ /cgp
+├ ○ /confidentialite
+├ ○ /contact
+├ ○ /diagnostic
+├ ○ /mentions-legales
+└ ○ /programmes
+
+
+○  (Static)  prerendered as static content
+
