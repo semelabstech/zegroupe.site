@@ -92,6 +92,45 @@
       "titleAccent": "your market?",
       "desc": "Stop leaving your image to chance. Contact the ZEG team to craft the strategy that sets you apart.",
       "button": "Start the conversation"
+    },
+    "expertise": {
+      "label": "What we do",
+      "title": "Our",
+      "titleAccent": "Expertise.",
+      "categories": [
+        {
+          "num": "01",
+          "title": "Brand Architecture",
+          "desc": "Branding, Visual identity, Naming, Brand strategy, Packaging."
+        },
+        {
+          "num": "02",
+          "title": "Marketing & Acquisition",
+          "desc": "Facebook & Instagram Ads, Google Ads, SEO, Copywriting, Sales funnels."
+        },
+        {
+          "num": "03",
+          "title": "Content Production",
+          "desc": "Product photography, Video production, Social media management, Ad design."
+        },
+        {
+          "num": "04",
+          "title": "Events",
+          "desc": "Event organization, Product launches, Marketing activation."
+        }
+      ]
+    },
+    "methode": {
+      "label": "How we work",
+      "title": "The ZEG",
+      "titleAccent": "Method.",
+      "steps": [
+        { "num": "01", "title": "Strategic Diagnostic", "desc": "Analysis of your market, competitors and current positioning." },
+        { "num": "02", "title": "Brand Architecture", "desc": "Building your identity, message and positioning." },
+        { "num": "03", "title": "System Implementation", "desc": "Website, sales funnels and tracking tools." },
+        { "num": "04", "title": "Marketing Activation", "desc": "Targeted ad campaigns and content production." },
+        { "num": "05", "title": "Optimization & Growth", "desc": "Data analysis, adjustment and scaling." }
+      ]
     }
   },
   "packs": [

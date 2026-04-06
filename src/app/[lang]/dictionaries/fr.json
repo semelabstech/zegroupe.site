@@ -92,6 +92,45 @@
       "titleAccent": "votre marché ?",
       "desc": "Ne laissez plus votre image au hasard. Contactez l'équipe ZEG pour façonner la stratégie qui vous démarquera.",
       "button": "Entamer la discussion"
+    },
+    "expertise": {
+      "label": "Ce que nous faisons",
+      "title": "Nos",
+      "titleAccent": "Expertises.",
+      "categories": [
+        {
+          "num": "01",
+          "title": "Architecture de marque",
+          "desc": "Branding, Identité visuelle, Naming, Stratégie de marque, Packaging."
+        },
+        {
+          "num": "02",
+          "title": "Marketing & Acquisition",
+          "desc": "Facebook & Instagram Ads, Google Ads, SEO, Copywriting, Tunnels de vente."
+        },
+        {
+          "num": "03",
+          "title": "Production de Contenu",
+          "desc": "Shooting photo, Production vidéo, Gestion réseaux sociaux, Design publicitaire."
+        },
+        {
+          "num": "04",
+          "title": "Événementiel",
+          "desc": "Organisation d'événements, Lancement de produits, Activation marketing."
+        }
+      ]
+    },
+    "methode": {
+      "label": "Comment nous travaillons",
+      "title": "Méthode",
+      "titleAccent": "ZEG.",
+      "steps": [
+        { "num": "01", "title": "Diagnostic stratégique", "desc": "Analyse de votre marché, concurrents et positionnement actuel." },
+        { "num": "02", "title": "Architecture de marque", "desc": "Construction de votre identité, message et positionnement." },
+        { "num": "03", "title": "Mise en place des systèmes", "desc": "Site web, funnels de vente et outils de suivi." },
+        { "num": "04", "title": "Activation marketing", "desc": "Campagnes publicitaires ciblées et production de contenu." },
+        { "num": "05", "title": "Optimisation & croissance", "desc": "Analyse des données, ajustement et scaling." }
+      ]
     }
   },
   "packs": [

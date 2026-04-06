@@ -235,6 +235,96 @@ export default function Home() {
         </div>
       </section>
 
+      {/* EXPERTISE */}
+      <section className="py-32 md:py-48 hairline-t">
+        <div className="container mx-auto px-8 md:px-12 max-w-[1200px]">
+          <motion.div 
+            initial="hidden" 
+            whileInView="visible" 
+            viewport={{ once: true, margin: "-100px" }}
+            variants={staggerContainer}
+            className="mb-24"
+          >
+            <motion.h3 variants={fadeInUp} className="text-[10px] font-sans tracking-[0.3em] uppercase text-white/40 mb-6">
+              {t.expertise.label}
+            </motion.h3>
+            <motion.h2 variants={fadeInUp} className="text-4xl md:text-6xl font-serif font-light text-white">
+              {t.expertise.title} <br/>
+              <span className="text-white/30 italic">{t.expertise.titleAccent}</span>
+            </motion.h2>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-white/10">
+            {t.expertise.categories.map((cat: any, index: number) => (
+              <motion.div 
+                key={index}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.8, delay: index * 0.1 }}
+                className="bg-background group hover:bg-white/[0.02] transition-colors duration-700 p-8 md:p-12"
+              >
+                <div className="flex items-center gap-6 mb-6">
+                  <span className="text-sm font-sans tracking-widest text-primary/60 group-hover:text-primary transition-colors duration-500">
+                    {cat.num}
+                  </span>
+                  <h4 className="text-xl md:text-2xl font-serif font-light text-white">{cat.title}</h4>
+                </div>
+                <p className="text-sm md:text-base font-light text-white/50 leading-relaxed">{cat.desc}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* METHODE ZEG */}
+      <section className="py-32 md:py-48 hairline-t bg-[#050505] relative overflow-hidden">
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-primary/3 rounded-full blur-[200px] pointer-events-none"></div>
+        <div className="container mx-auto px-8 md:px-12 max-w-[1200px] relative z-10">
+          <motion.div 
+            initial="hidden" 
+            whileInView="visible" 
+            viewport={{ once: true, margin: "-100px" }}
+            variants={staggerContainer}
+            className="mb-24 md:mb-32"
+          >
+            <motion.h3 variants={fadeInUp} className="text-[10px] font-sans tracking-[0.3em] uppercase text-white/40 mb-6">
+              {t.methode.label}
+            </motion.h3>
+            <motion.h2 variants={fadeInUp} className="text-4xl md:text-6xl font-serif font-light text-white">
+              {t.methode.title} <br/>
+              <span className="text-white/30 italic">{t.methode.titleAccent}</span>
+            </motion.h2>
+          </motion.div>
+
+          <div className="flex flex-col">
+            {t.methode.steps.map((step: any, index: number) => (
+              <motion.div 
+                key={index}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={fadeInUp}
+                className="group flex flex-col md:flex-row items-start md:items-center justify-between py-10 md:py-14 hairline-t hover:bg-white/[0.02] transition-colors duration-700 cursor-default px-4 -mx-4"
+              >
+                <div className="flex items-center gap-8 md:gap-12 mb-3 md:mb-0">
+                  <span className="text-sm font-sans tracking-widest text-primary/60 group-hover:text-primary transition-colors duration-500">
+                    {step.num}
+                  </span>
+                  <h4 className="text-2xl md:text-4xl font-serif font-light text-white group-hover:translate-x-3 rtl:group-hover:-translate-x-3 transition-transform duration-700">
+                    {step.title}
+                  </h4>
+                </div>
+                <p className="text-white/50 text-sm md:text-base font-light max-w-sm md:text-right rtl:md:text-left group-hover:text-white/70 transition-colors duration-500 pl-16 md:pl-0 rtl:pr-16 rtl:md:pr-0">
+                  {step.desc}
+                </p>
+              </motion.div>
+            ))}
+            <div className="hairline-t w-full"></div>
+          </div>
+        </div>
+      </section>
+
       {/* PROGRAMMES */}
       <section className="py-32 md:py-48">
         <div className="container mx-auto px-8 md:px-12 max-w-[1200px]">
@@ -243,7 +333,7 @@ export default function Home() {
             whileInView="visible" 
             viewport={{ once: true, margin: "-100px" }}
             variants={staggerContainer}
-            className="flex flex-col md:flex-row md:items-end justify-between mb-24 gap-12"
+            className="flex flex-col md:flex-row md:items-end justify-between mb-16 md:mb-24 gap-12"
           >
             <div>
               <motion.h3 variants={fadeInUp} className="text-[10px] font-sans tracking-[0.3em] uppercase text-white/40 mb-6">
@@ -262,74 +352,37 @@ export default function Home() {
             </motion.div>
           </motion.div>
 
-          <div className="flex flex-col">
-            {packs.map((pack, index) => (
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-white/10">
+            {packs.slice(0, 3).map((pack, index) => (
               <motion.div 
                 key={index}
-                initial={{ opacity: 0, y: 50 }}
+                initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-50px" }}
-                transition={{ duration: 0.8 }}
-                className="border-t border-white/10 group"
+                transition={{ duration: 0.8, delay: index * 0.15 }}
+                className="bg-[#030303] group hover:bg-white/[0.02] transition-colors duration-700 p-8 md:p-10 flex flex-col justify-between min-h-[320px]"
               >
-                <div className="py-12 md:py-20">
-                  <span className="text-[10px] font-sans tracking-[0.3em] uppercase text-primary/60 group-hover:text-primary transition-colors duration-500 mb-4 md:mb-6 block">
-                    {t.programmesSection.programmeLabel} 0{index + 1}
+                <div>
+                  <span className="text-[10px] font-sans tracking-[0.3em] uppercase text-primary/50 group-hover:text-primary transition-colors duration-500 mb-6 block">
+                    {index + 1}
                   </span>
-                  
-                  <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 lg:gap-16 mb-8 md:mb-12">
-                    <h4 className="text-2xl md:text-4xl lg:text-5xl font-serif font-light text-white leading-[1.15] lg:max-w-[50%]">
-                      {pack.title}
-                    </h4>
-                    <p className="text-base md:text-lg font-light text-white/50 italic leading-relaxed lg:max-w-[45%]">
-                      &quot;{pack.shortDesc}&quot;
-                    </p>
-                  </div>
-
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-8 mb-8 md:mb-12">
-                    <div className="flex items-start gap-3 p-4 bg-white/[0.02] border border-white/5">
-                      <Clock size={16} className="text-primary/60 mt-0.5 shrink-0" strokeWidth={1.5} />
-                      <div>
-                        <h5 className="text-[9px] md:text-[10px] font-sans tracking-[0.2em] uppercase text-white/30 mb-1">{t.programmesSection.realisation}</h5>
-                        <p className="text-sm font-light text-white/80">{pack.deadline}</p>
-                      </div>
-                    </div>
-                    <div className="flex items-start gap-3 p-4 bg-white/[0.02] border border-white/5">
-                      <Shield size={16} className="text-primary/60 mt-0.5 shrink-0" strokeWidth={1.5} />
-                      <div>
-                        <h5 className="text-[9px] md:text-[10px] font-sans tracking-[0.2em] uppercase text-white/30 mb-1">{t.programmesSection.maintenance}</h5>
-                        <p className="text-sm font-light text-white/80">{pack.maintenance}</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="mb-8 md:mb-12">
-                    <h5 className="text-[9px] md:text-[10px] font-sans tracking-[0.2em] uppercase text-white/30 mb-5 md:mb-6">
-                      {t.programmesSection.included}
-                    </h5>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
-                      {pack.features.map((feature, i) => (
-                        <div key={i} className="flex items-start gap-3 text-sm md:text-base font-light text-white/60 group-hover:text-white/80 transition-colors duration-500">
-                          <CheckCircle2 className="text-primary/50 mt-0.5 shrink-0" strokeWidth={1.5} size={16} />
-                          <span>{feature}</span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-
-                  <Link 
-                    href={`/${lang}/contact`} 
-                    className="group/btn relative inline-flex items-center justify-center px-8 py-4 md:px-10 md:py-5 overflow-hidden bg-white/[0.03] border border-white/10 hover:border-primary/50 text-[10px] md:text-xs font-sans tracking-[0.2em] uppercase text-white/80 hover:text-primary transition-all duration-500 w-full sm:w-auto"
-                  >
-                    <span className="relative z-10 flex items-center gap-3">
-                      {t.programmesSection.requestPack}
-                      <ArrowRight size={14} className="transform group-hover/btn:translate-x-2 transition-transform duration-500 rtl:rotate-180 rtl:group-hover/btn:-translate-x-2" />
-                    </span>
-                  </Link>
+                  <h4 className="text-xl md:text-2xl font-serif font-light italic text-white leading-[1.3] mb-5">
+                    {pack.title}
+                  </h4>
+                  <p className="text-sm font-light text-white/50 leading-relaxed">
+                    {pack.shortDesc}
+                  </p>
                 </div>
+
+                <Link 
+                  href={`/${lang}/programmes`} 
+                  className="group/btn inline-flex items-center gap-3 text-[10px] font-sans tracking-[0.2em] uppercase text-white/40 hover:text-primary transition-colors duration-500 mt-8"
+                >
+                  <span>{t.programmesSection.cta}</span>
+                  <ArrowRight size={12} className="transform group-hover/btn:translate-x-1 transition-transform duration-500 rtl:rotate-180 rtl:group-hover/btn:-translate-x-1" />
+                </Link>
               </motion.div>
             ))}
-            <div className="border-t border-white/10"></div>
           </div>
         </div>
       </section>
